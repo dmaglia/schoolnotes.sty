@@ -15,11 +15,17 @@ A Latex Package optimized for schoolnotes. It provides a number of package for m
 | `\figreftt{fig:1}` | Abbildung 10.4              |
 | `\seepage{label}`  | (siehe Seite 12)            |
 
+
 ## `\frontmatter`
 Changes the Pagenumbering to **Roman** and the pagestyle to **plain**. Should be used for the first pages with the table of contents, list of figures etc. **If you use `\frontmatter` you have to use `\mainmatter` as well.**
 
 ## `\mainmatter`
 Changes the Pagenumbering to **arabic**, resets the page counter to 1 and changes the pagestyle to **maincontentstyle**.
+
+# Shortcuts
+| Shortcut | Original | Purpose                           |
+| ---------|----------|-----------------------------------|
+| `\m`     | `\cdot`  | Simplify writing of math formulas |
 
 # Contribution Guide
 coming soon
