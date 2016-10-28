@@ -312,6 +312,18 @@
     \def\computelastpage{\pageref{LastPage}}
 }
 
+% RESULT = Inserts figure at the commands position.
+% Parameters:
+% 1: scale
+% 2: graphics directory
+% 3: caption
+\newcommand{\quickfig}[3]{
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[scale=#1]{#2}
+		\caption{#3}
+	\end{figure}
+}
 
 % RESULT = (siehe Tab. 12.4)
 \newcommand{\tabref}[1]{(siehe Tab.~\ref{#1})}

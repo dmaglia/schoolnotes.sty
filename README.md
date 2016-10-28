@@ -22,6 +22,20 @@ Changes the Pagenumbering to **Roman** and the pagestyle to **plain**. Should be
 ## `\mainmatter`
 Changes the Pagenumbering to **arabic**, resets the page counter to 1 and changes the pagestyle to **maincontentstyle**.
 
+## `\quickfig`
+Inserts a figure at the commands location.
+
+### Parameters:
+1. Graphics scale
+2. Graphics location
+3. location
+
+### Example:
+```tex
+\quickfig{0.5}{example.png}{This is an example image}
+```
+
+
 # Shortcuts
 | Shortcut | Original | Purpose                           |
 | ---------|----------|-----------------------------------|
