@@ -1,5 +1,5 @@
 # schoolnotes.sty
-A Latex Package optimized for schoolnotes. It provides a number of package for math operations and a clean typography out of the box. In addition there a some [commnads](#commands) to simplify reference in a latex document.
+A Latex Package optimized for schoolnotes. It provides a number of package for math operations and a clean typography out of the box. In addition there a some [commands](#commands) to simplify reference in a latex document.
 
 
 # Commands
